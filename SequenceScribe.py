@@ -16,8 +16,6 @@ def main():
     # read in sequence of masses and monomer pool
     my_parser = argparse.ArgumentParser(description='Get unknown monomer sequence given a pool of monomers')
 
-    monomer_list = ''
-    raw_sequence = ''
 
     my_parser.add_argument('-monomers',
                            dest='monomer_list',
